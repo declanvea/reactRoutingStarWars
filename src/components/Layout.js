@@ -22,7 +22,7 @@ export default class BaseLayout extends Component {
               <ul className="nav navbar-nav">
                 <li>
                   {/* Add a NavLink set to the home page. Set the activeStyle to a color of yellow */}
-                  <NavLink exact to="/" activeStyle={{color: 'yellow'}}>SWAPI Explorer</NavLink>
+                  <NavLink exact to="/" activeStyle={{color: 'blue'}}>SWAPI Explorer</NavLink>
                 </li>
                 <li>
                   {/* Add a NavLink set to characters. Include activeClassName */}
